@@ -1,20 +1,42 @@
 body, html{
+	overflow-x: hidden !important;
 	width: 100%;
 	height: 100%;
 	margin: auto;
-	background-color: black;
+	background-color: white;
+	background-image: url("http://i.giphy.com/3o7TKLUL6FBt54S4WQ.gif");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 h1{
 	text-align: center;
-	color: white;
+	color: black;
+	font-size: 48px;
+	
 }
+@media screen and (max-width:800px){
+	h1{
+		font-size: 24px;}
+		
+	}
 img{
 	display: block;
 	margin: auto;
 	vertical-align: middle;
+	max-width:100%;
 }
 .helper{
 	display: inline-block;
    	height: 15%;
     	vertical-align: middle;
+}
+.container{
+	height: 100%;
+	width: 96%;
+	position: absolute;
+	top: 0;
+	margin: auto;
+}
+canvas{
+	background-image: url("http://i.cdn.turner.com/adultswim/big/img/2016/08/04/blank-bg.png");
 }
